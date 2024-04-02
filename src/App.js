@@ -1,12 +1,11 @@
 
 import './App.css';
+import PageHero from './components/PageHero';
 
 function App() {
   return (
     <div className=''>
-    <div className='grainy'>
-     <h1>Nerah's Passion</h1>
-    </div>
+    <PageHero />
     </div>
   );
 }

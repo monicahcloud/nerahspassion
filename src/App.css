@@ -38,6 +38,7 @@ background-size: 100% 100%;
 mix-blend-mode: overlay;
 z-index: -1;
 }
+
 .grainy::after {
   content: '';
   position: absolute;
@@ -58,8 +59,7 @@ z-index: -1;
   }
 }
 .App-header {
-  
-  min-height: 100vh;
+   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@ z-index: -1;
   font-size: calc(10px + 2vmin);
   position: relative;
 }
-/* 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -79,12 +79,17 @@ z-index: -1;
   }
 }
 
+#logo {
+width: 3rem;
+align-items: left;
 
+}
+/* 
 
 .App-link {
   color: #61dafb;
 }
-
+*/
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -92,4 +97,4 @@ z-index: -1;
   to {
     transform: rotate(360deg);
   }
-} */
+} 
