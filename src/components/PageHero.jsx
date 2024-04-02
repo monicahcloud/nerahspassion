@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import logo from '../images/logo.jpg'
+import logo from '../images/logo.png'
 
 const PageHero = () => {
   return (
@@ -10,7 +10,7 @@ const PageHero = () => {
        <img id="logo" src={logo} alt="Logo" /> 
         
       </div>
-     <h1>Nerah's Passion</h1>
+     <h1 className='dancing-script' id='logo'>Nerah's Passion </h1>
     </div>
     </div>
   )
