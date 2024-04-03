@@ -131,7 +131,7 @@ font-size: 80px;
 text-shadow: 2px 2px 5px yellow;
 }
 
-@media (max-width: 2460px) {
+/* @media (max-width: 2460px) {
   body {
       font-size: 20px;
   }
@@ -231,4 +231,4 @@ text-shadow: 2px 2px 5px yellow;
   body {
       font-size: 4px;
   }
-}
+} */
