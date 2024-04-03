@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import logo from '../images/logo.png'
-import transfer from "../images/newclients.png"
+// import transfer from "../images/newclients.png"
 
 const PageHero = () => {
   return (
