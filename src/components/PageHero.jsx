@@ -16,8 +16,8 @@ const PageHero = () => {
         <img
                 className="grow"
                 style={{
-                  textAlign: "right",
-
+                  margin: "0 15 15 0",
+                  float: 'right'
                 }}
                 width="100"
                 src={transfer} alt="new clients" />
