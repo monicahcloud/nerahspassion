@@ -9,14 +9,14 @@ const PageHero = () => {
          <div className='grainy' >
           <img className=''  id="logo" src={logo} alt="Logo" />
         <h1 className='dancing-script textShadow'>Nerah's Passion </h1>
-        <img
+        {/* <img
                 className="grow"
                 style={{
                   margin: "0 15 15 0",
                   float: 'right'
                 }}
                 width="100"
-                src={transfer} alt="new clients" />
+                src={transfer} alt="new clients" /> */}
         </div>
         {/* 
       <Nav className=" Navbar justify-content-right" 

@@ -132,103 +132,103 @@ text-shadow: 2px 2px 5px yellow;
 }
 
 @media (max-width: 2460px) {
-  html {
+  body {
       font-size: 20px;
   }
 }
 
 @media (max-width: 2340px) {
-  html {
+  body {
       font-size: 19px;
   }
 }
 
 @media (max-width: 2220px) {
-  html {
+  body {
       font-size: 18px;
   }
 }
 
 @media (max-width: 2100px) {
-  html {
+  body {
       font-size: 17px;
   }
 }
 
 @media (max-width: 1980px) {
-  html {
+  body {
       font-size: 16px;
   }
 }
 
 @media (max-width: 1860px) {
-  html {
+  body {
       font-size: 15px;
   }
 }
 
 @media (max-width: 1740px) {
-  html {
+  body {
       font-size: 14px;
   }
 }
 
 @media (max-width: 1620px) {
-  html {
+  body {
       font-size: 13px;
   }
 }
 
 @media (max-width: 1500px) {
-  html {
+  body {
       font-size: 12px;
   }
 }
 
 @media (max-width: 1380px) {
-  html {
+  body {
       font-size: 11px;
   }
 }
 
 @media (max-width: 1260px) {
-  html {
+  body {
       font-size: 10px;
   }
 }
 
 @media (max-width: 1140px) {
-  html {
+  body {
       font-size: 9px;
   }
 }
 
 @media (max-width: 1020px) {
-  html {
+  body {
       font-size: 8px;
   }
 }
 
 @media (max-width: 900px) {
-  html {
+  body {
       font-size: 7px;
   }
 }
 
 @media (max-width: 780px) {
-  html {
+  body {
       font-size: 6px;
   }
 }
 
 @media (max-width: 660px) {
-  html {
+  body {
       font-size: 5px;
   }
 }
 
 @media (max-width: 540px) {
-  html {
+  body {
       font-size: 4px;
   }
 }
