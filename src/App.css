@@ -1,10 +1,29 @@
 body  {
-  text-align: center;
   background: linear-gradient(217deg, rgba(212, 154, 125, 1), rgba(81, 31, 99, 1) 70.71%),
   linear-gradient(127deg, rgba(0,255,0,.8), rgba(255, 210, 0, 1) 70.71%),
   linear-gradient(336deg, rgba(255, 210, 0, 1), rgba(0,0,255,0) 70.71%);
   background-repeat: repeat-x;
 }
+.SlideShowbody  {
+  background: white
+}
+
+.grow {
+  font-family: 'Merienda';
+  color: gold;
+  font-style: oblique;
+  font-weight: bolder;
+  -webkit-animation-name: grow;
+  -webkit-animation-duration: 4s;
+  transition-property: -moz-transform;
+  transition-duration: 1s;
+  animation-name: grow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+/* Animations */
 .shimmer {
   position: absolute;
   top: 0;
@@ -13,15 +32,14 @@ body  {
    height: 100%;
 
   background: linear-gradient(100deg, rgba(255,255,255,0) 20%, rgba(255,255,255,005) 50%,rgba(255,255,255,0) 80%);
-
-  animation: shimmer 10.5s infinite linear;
+  animation: shimmer 1.5s infinite linear;
 }
 .grainy {
 position: relative;
 width: 100%;
 height: 100%;
 display: flex;
-/* justify-content: center; */
+justify-content: left;
 align-items: center;
 background: linear-gradient(140deg ,#eb57c3, #40f8f8);
 z-index: 1;
@@ -58,6 +76,15 @@ z-index: -1;
     transform: translateX(300%);
   }
 }
+@keyframes grow {
+  from {
+    -webkit-transform: scale(1.25);
+  }
+
+  to {
+    -webkit-transform: scale(2);
+  }
+}
 .App-header {
    min-height: 100vh;
   display: flex;
@@ -68,32 +95,9 @@ z-index: -1;
   position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 #logo {
-width: 10rem;
-font-size: 80px;
-text-shadow: 2px 2px 5px yellow;
+width: 8rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} 
-
 
 /* Fonts */
 .dancing-script {
@@ -101,4 +105,15 @@ text-shadow: 2px 2px 5px yellow;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+}
+.playfair-display  {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.textShadow {
+font-size: 80px;
+text-shadow: 2px 2px 5px yellow;
 }
