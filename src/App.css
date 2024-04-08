@@ -1,4 +1,10 @@
 /* Components */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body  {
   background: linear-gradient(217deg, rgba(212, 154, 125, 1), rgba(81, 31, 99, 1) 70.71%),
   linear-gradient(127deg, rgba(0,255,0,.8), rgba(255, 210, 0, 1) 70.71%),
@@ -36,43 +42,66 @@ body  {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
-/*Slideshow*/
-.slideshow {
-  margin: 5px;
-  overflow: hidden;
-  max-width: 1500px;
-}
 
-.slide {
-  display: inline-block;
-
-  height: 400px;
-  width: 100%;
-  border-radius: 40px;
-}
-
-.slideshowSlider {
-  white-space: nowrap;
-  transition: ease 2000ms;
-}
-/* Buttons */
-.slideshowDots {
-  text-align: center;
-}
-.slideshowDot {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-
-  cursor: pointer;
-  margin: 15px 7px 0px;
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
   
-  background-color: #c4c4c4;
 }
-.slideshowDot.active {
-  background-color: #6a0dad;
+
+/*Slideshow*/
+.images {
+  padding: 20px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  background: white;
+  position: relative;
 }
+
+.images:hover .images-slide {
+  animation-play-state: paused;
+}
+
+/* .images:before, 
+.images:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: '';
+  z-index: 2;
+}
+.images:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0),  #eb57c3)
+}
+
+.images:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0),#40f8f8)
+} */
+.images-slide {
+  display: inline-block;
+  white-space: nowrap;
+  animation: 10s slide infinite linear;
+   height: 150px;
+  width: 150px;
+  margin: 0 40px;
+  border-radius: 100px;
+}
+.images-slide img{
+  height: 150px;
+  width: 150px;
+  margin: 0 40px;
+  border-radius: 100px;
+}
+
+
+
 
 /* Animations */
 .shimmer {
@@ -135,6 +164,7 @@ z-index: -1;
     -webkit-transform: scale(1.5);
   }
 }
+
 .App-header {
    min-height: 100vh;
   display: flex;
