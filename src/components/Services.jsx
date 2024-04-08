@@ -29,16 +29,17 @@ const Services = () => {
               color: "white",
               // display: 'flex',
               flexDirection: 'row',
-              alignItems: 'left',
-              justifyContent: 'left',
+              alignItems: 'center',
+              justifyContent: 'center',
               padding: 15,
             }}>
-            <ul>
+           
               <h2 style={{
                 color: "white",
                 textDecoration: "underline",
               }}> Services</h2>
-              {services.map(service => {
+              <ul> 
+                {services.map(service => {
                 return (
                   <h4>
                     <li key={service.key}
@@ -63,11 +64,11 @@ const Services = () => {
               flexDirection: 'row',
               alignItems: 'center',
               justifyContent: 'center',
-              marginTop: 30
+              marginTop: 100
             }}
           >
             <Image
-              class
+            className='grow'
               rounded
               width="200"
               height="175"
