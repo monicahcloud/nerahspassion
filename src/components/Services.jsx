@@ -2,9 +2,9 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+// import Image from 'react-bootstrap/Image';
 import '../App.css';
-import transfer from "../images/newclients.png"
+// import transfer from "../images/newclients.png"
 
 const Services = () => {
 
