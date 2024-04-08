@@ -35,17 +35,29 @@ const SlideShow = () => {
 
 <Container >
       <Row >
-           <Col xs={3} >
-          <Image src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/10/18/16946850_65be2e6f_720x540.jpg" thumbnail />
+           <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }} src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/10/18/16946850_65be2e6f_720x540.jpg" roundedCircle />
         </Col>
-        <Col xs={3} >
-          <Image src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" thumbnail />
+        <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }}src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" roundedCircle />
         </Col>
-        <Col xs={3} >
-          <Image src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/09/18/16841819_d48e7e9e_720x540.jpg" thumbnail />
+        <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }}src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/09/18/16841819_d48e7e9e_720x540.jpg" roundedCircle />
         </Col>
-        <Col xs={3} >
-          <Image src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" thumbnail />
+        <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }}src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" roundedCircle />
+        </Col>
+        <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }}src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" roundedCircle />
+        </Col>
+        <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }}src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" roundedCircle />
+        </Col>
+        <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }}src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" roundedCircle />
+        </Col>
+        <Col xs={2} >
+          <Image style={{ width: 150, height: 150 }}src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/12/11/17120033_29c7b5c6_720x540.jpg" roundedCircle />
         </Col>
         </Row>
     </Container>

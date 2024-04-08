@@ -19,7 +19,7 @@ const Services = () => {
     <>
       <Container classname="col-md-12 ">
         <Row className='playfair-display'>
-          <Col md={6}
+          <Col md={4}
             style={{
               color: "white",
               display: 'flex',
@@ -27,25 +27,32 @@ const Services = () => {
               alignItems: 'left',
               justifyContent: 'left',
             }}>
-            <h2> Services</h2>
+            
             <ul>
+              <h2 style={{
+              color: "white",
+              textDecoration:"underline",
+            }}> Services</h2>
               {services.map(service => {
                 return (
+                 <h4> 
                   <li key={service.key}
                   >{service.service}
                   </li>
+                  </h4>
                 )
               })}
 
             </ul>
           </Col>
-          <Col md={6}  
+          <Col md={4}  
           style={{
               display: 'flex',
               flexDirection: 'row',
               alignItems: 'right',
               justifyContent: 'right',
               marginTop:30
+
             }}>
               <Image 
             rounded
