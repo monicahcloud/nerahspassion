@@ -88,10 +88,8 @@ body  {
 .images-slide {
   display: inline-block;
   white-space: nowrap;
-  animation: 10s slide infinite linear;
-  height: 150px;
-  width: 150px;
-  margin: 0 40px;
+  animation: 20s slide infinite linear;
+ 
 }
 .images-slide img{
   height: 150px;
