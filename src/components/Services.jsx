@@ -24,12 +24,9 @@ const Services = () => {
     <>
       <Container classname="  " >
         <Row className='playfair-display'>
-          <Col md={8}
+          <Col
             style={{
               color: "white",
-         
-              alignItems: 'center',
-              justifyContent: 'center',
               padding: 15,
             }}>
            
@@ -57,13 +54,12 @@ const Services = () => {
               Book Appointment
             </Button>
           </Col>
-          <Col md={4}
+          <Col 
             style={{
-              // display: 'flex',
               flexDirection: 'row',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginTop: 100
+              alignItems: 'right',
+              justifyContent: 'right',
+              margin: 100
             }}
           >
             <Image
