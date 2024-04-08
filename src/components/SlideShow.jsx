@@ -33,8 +33,8 @@ const SlideShow = () => {
       </Row>
     </Container> */}
 
-<Container>
-      <Row>
+<Container >
+      <Row >
            <Col xs={3} >
           <Image src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/10/18/16946850_65be2e6f_720x540.jpg" thumbnail />
         </Col>

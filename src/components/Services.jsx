@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import '../App.css';
-import transfer from "../images/transfer.jpg"
+import transfer from "../images/newclients.png"
 
 const Services = () => {
 
@@ -47,9 +47,10 @@ const Services = () => {
               justifyContent: 'right',
               marginTop:30
             }}>
-              <Image
+              <Image 
             rounded
-            width="300"
+            width="200"
+            height="175"
             src={transfer} alt="new clients" />
           </Col>
         </Row>
