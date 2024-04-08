@@ -21,8 +21,8 @@ const Services = () => {
               color: "white",
               display: 'flex',
               flexDirection: 'row',
-              alignItems: 'left',
-              justifyContent: 'left',
+              alignItems: 'center',
+              justifyContent: 'center',
               padding:50
             }}>
 
