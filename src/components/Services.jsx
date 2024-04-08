@@ -27,8 +27,7 @@ const Services = () => {
           <Col md={8}
             style={{
               color: "white",
-              // display: 'flex',
-              flexDirection: 'row',
+         
               alignItems: 'center',
               justifyContent: 'center',
               padding: 15,
