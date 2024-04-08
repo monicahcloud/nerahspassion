@@ -13,7 +13,7 @@ body  {
 }
 
 .Footer {
-  background-color: purple;
+  background-color: rgba(81, 31, 99, 1) 70.71%;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: calc(2px + 2vmin);
@@ -62,9 +62,9 @@ body  {
   position: relative;
 }
 
-.images:hover .images-slide {
+/* .images:hover .images-slide {
   animation-play-state: paused;
-}
+} */
 
 /* .images:before, 
 .images:after {
@@ -84,14 +84,14 @@ body  {
   right: 0;
   background: linear-gradient(to right, rgba(255,255,255,0),#40f8f8)
 } */
+
 .images-slide {
   display: inline-block;
   white-space: nowrap;
   animation: 10s slide infinite linear;
-   height: 150px;
+  height: 150px;
   width: 150px;
   margin: 0 40px;
-  border-radius: 100px;
 }
 .images-slide img{
   height: 150px;
@@ -99,9 +99,6 @@ body  {
   margin: 0 40px;
   border-radius: 100px;
 }
-
-
-
 
 /* Animations */
 .shimmer {
