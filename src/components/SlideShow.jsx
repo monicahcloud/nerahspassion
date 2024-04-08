@@ -15,26 +15,27 @@ const SlideShow = () => {
   //   {url:"https://d220aniogakg8b.cloudfront.net/static/uploads/2024/02/15/17339045_d59e86ac_720x540.jpg"},
   //   {url:"https://d220aniogakg8b.cloudfront.net/static/uploads/2023/09/18/16841810_111d314d_720x540.jpg"},
   //   {url:"https://d220aniogakg8b.cloudfront.net/static/uploads/2023/09/18/16841810_111d314d_720x540.jpg"},
-
-  
   // ]
+
+
   return (
     <>
-    <div className='SlideShowbody'>
+    <div className='SlideShowbody'  style={{ border:'10px solid rgba(255, 240, 0)'}}>
     {/* <Container>
       <Row>
         <Col xs={3}>
           {images.map(image=> {
             return (
 
-              <Image src={image.url} thumbnail/>
+              <Image style={{ width: 150, height: 150 }} src={image.url} roundedCircle/>
             )
           })}
+          </Col>
       </Row>
     </Container> */}
 
-<Container style={{ margin:"0px", padding:"10px", borderColor: "yellow" }}>
-      <Row >
+<Container style={{ margin:"0px", padding:"10px"}}>
+      <Row  >
            <Col xs={2} >
           <Image style={{ width: 150, height: 150 }} src="https://d220aniogakg8b.cloudfront.net/static/uploads/2023/10/18/16946850_65be2e6f_720x540.jpg" roundedCircle />
         </Col>

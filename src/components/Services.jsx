@@ -17,15 +17,23 @@ const Services = () => {
 
   return (
     <>
-      <Container classname="col-md-12 ">
-        <Row className='playfair-display'>
-          <Col md={4}
-            style={{
+      <Container classname="  " style={{
               color: "white",
               display: 'flex',
               flexDirection: 'row',
               alignItems: 'left',
               justifyContent: 'left',
+              padding:50
+            }}>
+
+        <Row className='playfair-display'>
+          <Col md={12}
+            style={{
+              color: "white",
+              display: 'flex',
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'center',
             }}>
             
             <ul>
@@ -45,7 +53,7 @@ const Services = () => {
 
             </ul>
           </Col>
-          <Col md={4}  
+          {/* <Col md={4}  
           style={{
               display: 'flex',
               flexDirection: 'row',
@@ -59,7 +67,7 @@ const Services = () => {
             width="200"
             height="175"
             src={transfer} alt="new clients" />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </>
