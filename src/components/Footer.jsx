@@ -3,18 +3,15 @@ function Footer() {
     const year = today.getFullYear();
     return (
         <>
-        <div className="Footer">
-            {/* <div  >
-            <h5>Email: mycrownlocs@gmail.com</h5>
-       </div>
-        <div  >
-            <h5 >Phone: (262) 770-5142</h5>
-        </div> */}
-        <div >
-            <h5>Copyright @ {year} by Nerah's Passion. | All Rights Reserved</h5>
-            <h5>Designed and created by Monicah Cloud</h5>
+        <div className="Footer"
+        style={{
+               padding:5,
+               marginTop: 50
+              }}>
+            <p>Copyright @ {year} by Nerah's Passion. | All Rights Reserved
+            Designed and created by Monicah Cloud</p>
         </div> 
-        </div>
+
         </>
     );
 }

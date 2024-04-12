@@ -1,7 +1,6 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Image from 'react-bootstrap/Image';
 
 const Contact = () => {
   const info = {
@@ -14,23 +13,34 @@ const Contact = () => {
     <>
       <Container style={{
             color: "white",
+            alignContent:'center',
+            justifyContent:'center'
           }}>
-        <Row className='playfair-display'>
-         
-            <Image
-              className=''
-              rounded
-              width="200"
+        <Row className='playfair-display Footer'>
+          {/* <Image
+              roundedCircle
+              width="300"
               height="175"
-              src="https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=mail@ashallendesign.co.uk" alt="new clients" />
-          <h2 >Contact Us</h2>
+              src="https://api.dicebear.com/7.x/adventurer-neutral/svg?seed=mail@ashallendesign.co.uk" 
+              alt="new clients" 
+              /> */}
+          
+  
+          <h2 style={{
+                color: "white",
+                textDecoration: "underline",
+                 paddingTop: 5,
+                 paddingBottom:15,
+                 margin:5
+              }}> Contact Us</h2>
+              
 
-            <h4>
+            <h6>
               <div>{info.name}</div>
               <div>{info.address}</div>
               <div>Phone: {info.phone}</div>
               <div>Email: {info.email}</div>
-            </h4>
+            </h6>
         </Row>
       </Container>
     </>

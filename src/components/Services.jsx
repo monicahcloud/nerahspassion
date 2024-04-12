@@ -37,11 +37,11 @@ const Services = () => {
               <ul> 
                 {services.map(service => {
                 return (
-                  <h4>
+                  <h6>
                     <li key={service.key}
                     >{service.service}
                     </li>
-                  </h4>
+                  </h6>
                 )
               })}
             </ul>
@@ -62,6 +62,7 @@ const Services = () => {
               margin: 100
             }}
           >
+
             <Image
             className='grow'
               rounded
@@ -69,6 +70,7 @@ const Services = () => {
               height="175"
               src={transfer} alt="new clients" />
           </Col>
+          
         </Row>
       </Container>
     </>
