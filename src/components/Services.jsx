@@ -59,7 +59,6 @@ const Services = () => {
             }}
           >
             <Image
-            className=''
               rounded
               width="250"
               height="250"

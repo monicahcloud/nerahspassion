@@ -20,7 +20,7 @@ const Contact = () => {
             textDecoration: "underline",
             paddingTop: 5,
             paddingBottom: 15,
-            margin: 5
+            margin: 50
           }}> Contact Us</h2>
           <h6>
             <div>{info.name}</div>
