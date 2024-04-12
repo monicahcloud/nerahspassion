@@ -22,12 +22,13 @@ const Services = () => {
 
   return (
     <>
-      <Container classname="  " >
+      <Container >
         <Row className='playfair-display Footer'>
           <Col
             style={{
               color: "white",
-              padding: 15,
+              paddingTop: 15,
+              marginTop:10
             }}>
               <h2 style={{
                 color: "white",

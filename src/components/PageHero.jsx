@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 const PageHero = () => {
   return (
     <>
-         <div className='grainy Footer' >
+         <div className='grainy ' >
           <img className=''  id="logo" src={logo} alt="Logo" />
         <h1 className='dancing-script textShadow'>Nerah's Passion </h1>
         </div>
