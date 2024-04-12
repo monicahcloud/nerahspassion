@@ -23,28 +23,23 @@ const Services = () => {
   return (
     <>
       <Container classname="  " >
-        <Row className='playfair-display'>
+        <Row className='playfair-display Footer'>
           <Col
             style={{
               color: "white",
               padding: 15,
             }}>
-           
               <h2 style={{
                 color: "white",
                 textDecoration: "underline",
               }}> Services</h2>
-              <ul> 
                 {services.map(service => {
                 return (
                   <h6>
-                    <li key={service.key}
-                    >{service.service}
-                    </li>
+                    {service.service}
                   </h6>
                 )
               })}
-            </ul>
             <Button
               variant="warning"
               size="lg"
@@ -59,10 +54,9 @@ const Services = () => {
               flexDirection: 'row',
               alignItems: 'right',
               justifyContent: 'right',
-              margin: 100
+              marginTop:100
             }}
           >
-
             <Image
             className='grow'
               rounded
@@ -70,7 +64,6 @@ const Services = () => {
               height="175"
               src={transfer} alt="new clients" />
           </Col>
-          
         </Row>
       </Container>
     </>

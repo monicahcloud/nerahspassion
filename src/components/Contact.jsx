@@ -12,9 +12,7 @@ const Contact = () => {
   return (
     <>
       <Container style={{
-            color: "white",
-            alignContent:'center',
-            justifyContent:'center'
+            color: "white"
           }}>
         <Row className='playfair-display Footer'>
           {/* <Image
