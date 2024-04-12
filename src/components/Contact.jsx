@@ -19,8 +19,7 @@ const Contact = () => {
             color: "white",
             textDecoration: "underline",
             paddingTop: 5,
-            paddingBottom: 15,
-            margin: 50
+            paddingBottom: 15
           }}> Contact Us</h2>
           <h6>
             <div>{info.name}</div>
