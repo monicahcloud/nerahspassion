@@ -58,10 +58,10 @@ const Services = () => {
             }}
           >
             <Image
-            className='grow'
+            className=''
               rounded
-              width="200"
-              height="175"
+              width="350"
+              height="350"
               src={transfer} alt="new clients" />
           </Col>
         </Row>
