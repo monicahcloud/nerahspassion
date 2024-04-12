@@ -54,14 +54,14 @@ const Services = () => {
               flexDirection: 'row',
               alignItems: 'right',
               justifyContent: 'right',
-              marginTop:100
+              marginTop:50
             }}
           >
             <Image
             className=''
               rounded
-              width="350"
-              height="350"
+              width="250"
+              height="250"
               src={transfer} alt="new clients" />
           </Col>
         </Row>
